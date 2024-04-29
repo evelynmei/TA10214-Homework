@@ -53,7 +53,7 @@ public class OP {
 		System.out.println(5 + 5);
 		// '5'為char, 但與前面的int 5相加時, 位元較小的char晉升為int, 在ASCII中char 5的int值為53, 故5+53=58
 		System.out.println(5 + '5');
-		// int 5串接string 5, 位元較小的int 5晉升為string, 串接的結果為55
+		// 串接相加, 結果為55
 		System.out.println(5 + "5");
 	}
 
