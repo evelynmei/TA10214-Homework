@@ -28,6 +28,7 @@ public class GenAuthCode {
 
     public static void main(String[] args) {
         GenAuthCode g = new GenAuthCode();
+        System.out.println("本次隨機產生驗證碼為: ");
         g.genAuthCode();
     }
 }
